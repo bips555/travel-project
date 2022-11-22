@@ -1,0 +1,177 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body
+{
+   
+    font-family: 'Varela Round', sans-serif;
+}
+
+img
+{
+    width: 80px;
+   
+}
+.nav-link
+ 
+{
+   color: skyblue;
+
+
+&:hover
+{
+    background: skyblue;
+    color: white;
+}
+}
+footer
+{
+    position: sticky bottom;
+}
+.dataimg
+{
+    width: 100px !important;
+}
+.backg
+{
+background: #FAFAFA;
+}
+.btn-primary
+{
+    background: #F4834A !important;
+}
+.hover
+{
+    li{
+    &:hover
+    {
+        color: rgba(25, 218, 232, 0.796);
+    }
+}
+}
+
+.backa
+{
+    background: #FFFFFF;
+}
+.fw-bolder
+{
+    &:hover{
+        color: orange;
+    }
+}
+
+.outerbox
+{
+  
+    position:relative;
+   
+}
+    .innerbox{visibility: hidden;
+        position: absolute;
+        background: white;
+       
+        border-radius: 5%;
+      
+       width: 300px;
+       height: 150px;
+       }
+.outerbox{
+    &:hover{
+        .innerbox{
+@media screen {max-width:100%;
+        position: absolute;
+        background: white;
+       
+        border-radius: 5%;
+      
+       width: 300px;
+       height: 150px;
+       visibility: visible;
+       opacity: 0.5;
+       transition: 0.9s;
+      
+
+        h3{
+            &:hover
+            {
+                color: orange;
+            }
+        }
+    }}
+}
+  }
+
+    
+
+.sticky-top
+{
+    z-index: 2;
+}
+.relati
+{
+    position: relative;
+}
+    .posi{visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #FFFBF5;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+       }
+    .relati{
+    &:hover{
+.posi{
+    
+   
+
+    position: absolute;
+        top: 0;
+        left: 0;
+        background: #FFFBF5;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        transition: 0.4s;
+        padding: 30px;
+        visibility: visible;
+     
+    
+}
+    
+}
+    }
+
+
+.width
+{
+   @media screen {
+    max-width: 700px;
+   }
+}
+/* Swiper */
+
+.swiper-container {
+    width: 480px;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .swiper-container {
+      width: 640px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .swiper-container {
+      width: 768px;
+    }
+  }
